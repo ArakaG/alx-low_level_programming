@@ -3,12 +3,14 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
- * Return : Always 0 (Success)
+ * main - Prints if number is positive, zero or negative
+ * Return : Always (Success)
  */
 
 int main(void)
+	
 {
+	
 	int n;
 
 	srand(time(0));
