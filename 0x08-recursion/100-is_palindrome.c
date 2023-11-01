@@ -3,7 +3,7 @@
 /**
  * _strlen-recursion - Returns the length of a string
  * @s: String
- * Return: The length of a string
+ * Return: Always 0 (Success)
  */
 int _strlen_recursion(char *s)
 {
@@ -18,7 +18,8 @@ int _strlen_recursion(char *s)
  * @s: String
  * @n1: Smallest iterator
  * @n2: Biggest iterator
- * Return: Nothing
+ *
+ * Return: Always 0.
  */
 int comparator(char *s, int n1, int n2)
 {
