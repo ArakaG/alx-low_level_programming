@@ -5,7 +5,7 @@
  * main - Prints its name
  * @argc: argument count
  * @argv: argument vector
- * return: Always 0.
+ * Return: Always 0.
  */
 int main(int argc, char *argv[])
 {
