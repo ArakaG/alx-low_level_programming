@@ -4,8 +4,8 @@
 
 /**
  * argstostr - Converts the parameters passed to program to string
- * @c: The argument count
- * @v: The argument vector
+ * @ac: The argument count
+ * @av: The argument vector
  * Return: ...
  */
 char *argstostr(int ac, char **av)
