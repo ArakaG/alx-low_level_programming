@@ -13,7 +13,7 @@ while (head)
 	{
 	temp = head->next;
 	free(head->str);
-	free(head);	
+	free(head);
 	head = temp;
 	}
 }
