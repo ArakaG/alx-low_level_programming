@@ -29,7 +29,7 @@ int main(void)
 	n = print_list(head);
 	printf("-> %lu elements\n", n);
 
-    	tf("\n");
+    	printf("\n");
 	free(new->str);
 	new->str = NULL;
 	n = print_list(head);
